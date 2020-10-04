@@ -4,6 +4,7 @@ class Nmap < Formula
   url "https://nmap.org/dist/nmap-7.90.tar.bz2"
   sha256 "5557c3458275e8c43e1d0cfa5dad4e71dd39e091e2029a293891ad54098a40e8"
   head "https://svn.nmap.org/nmap/"
+  license "GPL-2.0-only" => { with: "https://nmap.org/book/man-legal.html#nmap-copyright"}
 
   livecheck do
     url "https://nmap.org/dist/"
