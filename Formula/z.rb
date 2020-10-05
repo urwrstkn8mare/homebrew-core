@@ -6,6 +6,7 @@ class Z < Formula
   url "https://github.com/rupa/z/archive/v1.9.tar.gz"
   sha256 "e2860e4f65770e02297ca4ca08ec1ee623a658bd9cc1acddbbe5ad22e1de70a7"
   version_scheme 1
+  license "WTFPL"
   head "https://github.com/rupa/z.git"
 
   livecheck do
